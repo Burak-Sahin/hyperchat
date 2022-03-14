@@ -2,7 +2,8 @@
 
 ## What
 A primitive chat app using Flask and Redis pub-sub.
-Task Definition:
+
+## Task Definition:
 We will make a chat application but in a more sophisticated way.
 In this application, each server is a chat participant and they communicate with each other through a messaging server( Redis ).
 Each server is a flask/django/barebone application written in python.
