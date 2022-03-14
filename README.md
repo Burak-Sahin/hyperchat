@@ -3,7 +3,7 @@
 ## Brief
 A primitive chat app using Flask and Redis pub-sub.
 
-## Task Definition
+### Task Definition
 We will make a chat application but in a more sophisticated way.
 In this application, each server is a chat participant and they communicate with each other through a messaging server( Redis ).
 Each server is a flask/django/barebone application written in python.
@@ -22,7 +22,12 @@ then
 
 Go to `http://localhost:<port_num>`
 
-
-
-
 License: (LICENSE)
+
+
+# TODO List
+1. Add frontend handling of the messages to backend 
+2. Need to dynamically assign ports per container
+3. Add group chat capability
+4. Unit tests
+5. Other small adjustments to cover edge cases
