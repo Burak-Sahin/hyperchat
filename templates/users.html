@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+{% block content %}
+    {% for user in users.values() %}
+        <a href="{{ user }}">PORT: {{ user }}</a>
+        <br/>
+    {% endfor %}
+{% endblock %}
