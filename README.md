@@ -29,5 +29,6 @@ License: (LICENSE)
 1. Add frontend handling of the messages to backend 
 2. Need to dynamically assign ports per container
 3. Add group chat capability
-4. Unit tests
-5. Other small adjustments to cover edge cases
+4. Threading for multiple chats
+5. Unit tests
+6. Other small adjustments to cover edge cases
